@@ -1,0 +1,78 @@
+
+/* navigatiomn  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    padding: 3px 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 0.8rem;
+
+}
+/* home section  */
+#home{
+        padding: 3px 80px;
+        height: 290px;
+        
+    }
+#home::before{
+    height: 425px;
+
+}
+#home h1{
+    font-size: 1.3rem;
+        margin: 5px;
+    }
+   
+   #home p{
+    font-size: 0.8rem;
+}
+.btn {
+    margin: 7px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    font-size: 0.8rem;
+}
+/* team section  */
+#team{
+flex-direction: column;
+margin: 10px;
+}
+.primary1 {
+    font-size: 1.2rem;
+    padding: 6px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.secondary1 {
+    font-size: 1.3rem;
+    padding: 2px;
+}
+#team .box {
+    padding: 10px;
+}
+#team .box img{
+    height: 220px;
+    }
+    #team .box p {
+        font-size: 0.9rem;
+    }
+/* contact section  */
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+#contact-box form {
+    width: 60%;
+}
+#contact-box{
+    padding: 15px;
+}
+
+
+
+/*  footer */
